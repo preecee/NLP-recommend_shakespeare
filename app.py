@@ -10,7 +10,7 @@ from sklearn.feature_extraction.text import CountVectorizer,TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import string
 import re
-stopwords = nltk.corpus.stopwords.words('english')
+#stopwords = nltk.corpus.stopwords.words('english')
 
 #***********************Generic Functions**************************************#
 
