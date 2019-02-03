@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask</title>
+</head>
+<body>
+<img src="static/img/shakespeare.jpg" height = "400" width = "2000">
+<h1> ***** Welcome to Shakespeare's world *****</h1>
+
+<form action="/recommend_shakespeare" method="post">
+    {{ form.hidden_tag() }}
+  <fieldset>
+      <legend><h3>Search Your Fav Sonnet by Index</h3></legend>
+      <div>{{ form.index }}</div>
+      <br>
+      <div>{{ form.submit }}</div>
+  </fieldset>
+</form>
+
+{% if (index) %}
+    <fieldset>
+        <legend><h3>Here is the sonnet of your choice : {{ rec_indx[0] }}</h3></legend>
+        <h2>{{ rec_title[0]}}</h2>
+        <div>
+            <p><h4>{{ rec_sonnet[0] }}</h4></p>
+         </div>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend><h3>Few recommendations based on your choice</h3></legend>
+        <br>
+        <h2>Sonnet {{ rec_indx[1] }} : {{ rec_title[1] }}</h2>
+            <p><h4>{{ rec_sonnet[1] }}</h4></p>
+        <br>
+        <h2>Sonnet {{ rec_indx[2] }} : {{ rec_title[2] }}</h2>
+            <p><h4>{{ rec_sonnet[2] }}</h4></p>
+        <br>
+        <h2>Sonnet {{ rec_indx[3] }} : {{ rec_title[3] }}</h2>
+            <p><h4>{{ rec_sonnet[3] }}</h4></p>
+        <br>
+        <div class="boxed">
+        <h2>Sonnet {{ rec_indx[4] }} : {{ rec_title[4] }}</h2>
+            <p><h4>{{ rec_sonnet[4] }}</h4></p>
+        </div>
+    </fieldset>
+{% endif %}
+</body>
+</html>
