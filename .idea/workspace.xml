@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b36d730-32ac-48f1-b565-2721cf724810" name="Default Changelist" comment="" />
+    <list default="true" id="2b36d730-32ac-48f1-b565-2721cf724810" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/flask.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="22" column="87" selection-start-line="22" selection-start-column="87" selection-end-line="22" selection-end-column="87" />
+            <state relative-caret-position="41">
+              <caret line="14" selection-start-line="14" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -75,6 +77,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,7 +99,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,17 +211,18 @@
       <updated>1549013516483</updated>
       <workItem from="1549013526680" duration="25927000" />
       <workItem from="1549056424494" duration="7846000" />
-      <workItem from="1549193948250" duration="1252000" />
+      <workItem from="1549193948250" duration="5190000" />
+      <workItem from="1549199967123" duration="1001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35025000" />
+    <option name="totallyTimeSpent" value="39964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23154363" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23489933" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -263,8 +266,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/flask.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="22" column="87" selection-start-line="22" selection-start-column="87" selection-end-line="22" selection-end-column="87" />
+        <state relative-caret-position="41">
+          <caret line="14" selection-start-line="14" selection-end-line="15" />
         </state>
       </provider>
     </entry>
